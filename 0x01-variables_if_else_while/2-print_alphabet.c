@@ -1,23 +1,19 @@
 #include <stdio.h>
-
+#include <unistd.h>
 /**
- * main - Entry point
- *
- * Description: print all aplhabet letters
- *
- * Return: Always 0 (Success)
-*/
-
+ * main -Entry point
+ * Description: prints allsingle digit numbers of
+ * base 10 from 0
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
-	char ch = 'a';
+	int a;
 
-	while (ch <= 'z')
+	for (a = 0; a < 10; a++)
 	{
-		putchar(ch);
-		++ch;
+		printf("%d", a);
 	}
 	putchar('\n');
-
-	return (0)
-}	
+	return (0);
+}

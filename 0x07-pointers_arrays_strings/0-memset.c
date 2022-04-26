@@ -8,6 +8,7 @@
   *
   * Return: the memory area filled
   */
+
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int a;
@@ -16,6 +17,6 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 		s[a] = b;
 	}
-
 	return (s);
+
 }

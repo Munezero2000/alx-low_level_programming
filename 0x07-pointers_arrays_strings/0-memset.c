@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
  * _memeset - 
@@ -7,7 +7,7 @@
  * @s bytes of memory to be filled 
  */
 
-char *_memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int ni)
 {
 	unsigned int c;
 	

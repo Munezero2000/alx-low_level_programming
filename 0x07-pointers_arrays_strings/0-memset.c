@@ -6,16 +6,15 @@
  * @b constat bytes to fill into 
  * @s bytes of memory to be filled 
  */
-char *_memset(char *s, char b, unsigned int ni)
+char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int c;
-	
-	for (c = 0; c < n; c++);
+	unsigned int a;
+
+	for (a = 0; a < n; a++)
 	{
-	s[c]= b;
+		s[a] = b;
 	}
 
 	return (s);
 }
- 
 
